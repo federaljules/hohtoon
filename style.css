@@ -1,0 +1,726 @@
+html{
+    min-width: 320px;
+}
+
+#etu_body{
+    margin: 0;
+    padding: 0;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-color: #f3c677;
+    background-image: url("/img/e1.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 100%;
+    
+}
+
+#alaotsikko{
+    font-size: 12pt;
+    text-align: center;
+    font-weight: bold;
+    padding: 10px;
+}
+
+#blogi_body{
+    margin: 0;
+    padding: 0;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-color: whitesmoke;
+    background-size: 100%;
+    
+}
+
+#hubi_body{
+    margin: 0;
+    padding: 0;
+    background: whitesmoke;
+    /* background: linear-gradient(270deg, #f3c677, #f9564f, #f3c677);
+    background-size: 600% 600%;
+    -webkit-animation: AnimationName 22s ease infinite;
+    -moz-animation: AnimationName 22s ease infinite;
+    animation: AnimationName 22s ease infinite; */
+
+    
+    
+    
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+a{
+    color: #f9564f;
+    transition: .3s ease;
+}
+
+a:hover{
+    color: #ff0800;
+    transition: .3s ease;
+}
+
+.header{
+    text-align: center;
+    background-color: #f9564f;
+    font-family: 'Julius Sans One', sans-serif;
+    color: white;
+}
+
+
+.nav-mobile{
+    font-family: 'Julius Sans One', sans-serif;
+    font-weight: bold;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    padding: 10px;
+    z-index: 100;
+   
+}
+
+.navbar-nav{
+    flex-direction: row;
+    justify-content: center;
+}
+
+.nav-item{
+    margin: 1%;
+    margin-top: 0;
+    margin-bottom: 0;
+    
+}
+
+
+
+#blogi_main{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    padding-top: 40px;
+    margin: auto;
+
+    font-family: "Helvetica"
+
+}
+
+#hub_main{
+    display: flex;
+    flex-flow: row-reverse wrap;
+    justify-content: center;
+    padding-top: 40px;
+    margin: auto;
+    height: 100%;
+    font-family: "Helvetica"
+
+}
+
+.blogi_kuva{
+ width: 100%;
+    margin-bottom: 40px;
+}
+
+.hub_kuva{
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+#koti_nav_txt{
+    font-size: 35pt;
+    font-family: 'Questrial', ;
+
+}
+
+#blogi_hub_kortti{
+    position: relative;
+    width: 20%;
+    max-width: 20%;
+    min-width: 400px;
+    background: white;
+    padding: 30px;
+    margin: 10px;
+    font-family: 'Montserrat';
+    border-radius: 7px;
+    padding-bottom: 70px;
+    box-shadow: rgba(0, 0, 0, 0.4) 5px 5px 20px;
+}
+
+
+.card-title{
+    font-weight: bold;
+    font-size: 20pt;
+}
+
+#sis_yla{
+    width: 100%;
+    padding: 10px;
+}
+#sis_ala{
+    padding: 15%;
+    padding-top: 0;
+}
+
+#blogi_sis{
+    width: 55%;
+    background: white;
+    margin-right: 3%;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.9;
+    max-width: 1070px;
+    box-shadow: rgb(209, 209, 209) 2px 2px 40px;
+}
+
+header h1{
+    margin: 0;
+}
+
+#teksti{
+    margin: 0;
+    padding: 0;
+}
+
+#footer{
+    font-size: 13pt;
+    padding-top: 30px;
+    font-style: italic;
+}
+
+#blogi_palkki{
+    width: 20%;
+    background: white;
+    height: 100%;
+    padding: 30px;
+
+    
+}
+
+#intro_txt{
+    height: auto;
+    font-size: 15pt;
+    background-color: hsl(0, 0%, 100%, 0);
+    padding: 10px;
+    margin-left: 40%;
+    margin-top: 6%;
+    max-width: 400px;
+    color: white;
+    font-weight: bolder;
+    text-shadow: rgb(235, 235, 235) 2px 2px 20px;
+    font-family: 'Julius Sans One', sans-serif;
+    text-align: center;
+}
+
+#main{
+    height: 50vh 100%;
+    display: flex;
+    padding-bottom: 5%;
+    flex-flow: column;
+    align-items: center;
+    background: linear-gradient( 270deg,rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.4) ,rgba(255, 255, 255, 0));
+    
+}
+
+
+
+#main2{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    background: #f3c677;
+    background-size: 100% 200%;
+    height: 100%;
+    padding: 40px;
+    /*
+    -webkit-clip-path: polygon(0 6%, 100% 0, 100% 94%, 0% 100%);
+    clip-path: polygon(0 6%, 100% 0, 100% 94%, 0% 100%);*/
+    
+
+}
+
+i{
+   
+    color: white;
+    font-size: 60px;
+    text-align: center;
+}
+
+#contact{
+    text-align: center;
+}
+
+i .fa-hashtag{
+    font-size: 40px!important;
+}
+
+
+#main3{
+    height: 300px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-around;
+    align-items: center;
+    background: #f9564f;
+    height: calc(40vh - 20px);
+    /*
+    -webkit-clip-path: polygon(0 6%, 100% 0, 100% 100%, 0% 100%);
+    clip-path: polygon(0 6%, 100% 0, 100% 100%, 0% 100%);*/
+}
+
+#palkki{
+    height: 100px;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.cardholder a{
+    text-decoration: none;
+    color: #242424;
+}
+
+.cardholder a:hover{
+    text-decoration: none;
+    color: #242424;
+}
+
+.card{
+    margin: 20px;
+    font-family: "Montserrat";
+    transition: .2s ease-in-out;
+    min-width: 239px;
+    
+}
+
+.allekirjoitus{
+    font-family: 'Sacramento', cursive;
+    transition: .2s ease-in-out;
+}
+
+.allekirjoitus:hover{
+    font-family: 'Sacramento', cursive;
+    color: #f3c677;
+    transition: .2s ease-in-out;
+
+}
+
+.container-fluid{
+    margin: 0;
+    padding:0;
+    
+}
+
+.catbtn{
+    display: inline-block;
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 100px;
+    border: solid #f9564f 2px;
+    margin-top: 1%;
+    cursor: pointer;
+    color: #f9564f;
+}
+
+.lue_btn{
+    padding: 5px;
+    margin: auto;
+    bottom: 0;
+    border-radius: 100px;
+    border: solid #f9564f 2px;
+    width: 30%;
+    cursor: pointer;
+    color: #f9564f;
+    transition: .2s ease-in-out;
+    text-align: center;
+}
+
+.lue_btn:hover{
+    color: white;
+    background-color: #fdb0ae;
+    transition: .2s ease-in-out;
+}
+
+.cat_active{
+    background-color: #fdb0ae;
+    color: white;
+    transition: .2s ease-in-out;
+}
+
+.card_lue{
+    background: #f9564f;
+    color: white;
+}
+
+#pvm{
+    color: #f9564f;
+    text-align: center;
+    font-size:12pt;
+}
+.item1{
+    text-align: center;
+    color: #f3c677;
+    font-size: 120pt;
+    text-shadow: white 3px 4px;
+    font-family: 'Julius Sans One', sans-serif;
+    /*font-family: 'Permanent Marker', cursive;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Vidaloka', serif;
+    font-family: 'Sacramento', cursive;    
+    font-family: 'Julius Sans One', sans-serif;
+    font-family: 'Cabin Sketch', cursive;
+    font-family: 'Megrim', cursive;
+    font-family: 'Meddon', cursive;
+    font-family: 'Zilla Slab Highlight', cursive;
+    font-family: 'Bungee Hairline', cursive;
+    font-family: 'Bungee Outline', cursive;
+    
+    font-family: 'Advent Pro', sans-serif;
+    font-family: 'Poiret One', cursive;
+    font-family: 'Josefin Slab', serif;
+    font-family: 'Montserrat Subrayada', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Questrial', ;
+
+    */
+}
+
+.otsikko_pieni{
+    font-size: 25pt;
+    text-align:center;
+    color: white;
+    font-family: 'Sacramento', cursive;  
+
+}
+
+.item2{
+    margin: auto;
+    text-align: center;
+    color: grey;
+    font-size: 42pt;
+}
+
+.item3{
+    text-align: center;
+    color: white;
+    display: flex;
+    font-size: 42pt;
+    font-family: 'Julius Sans One', sans-serif;
+}
+
+.item3 #cardholder{
+    font-size: 12pt;
+    display: flex;
+    flex-flow: row-reverse;
+    justify-content: center;
+}
+
+.nav-link{
+    display: inline;
+    padding: 0;
+}
+
+.otsikko{
+    color: white;
+}
+
+.navi_ul{
+    display: inline;
+}
+
+
+header p{
+    margin: 0;
+}
+
+.carousel-inner{
+    width: 80%;
+    margin: auto;
+}
+
+.item-next{
+    width: 80%;
+}
+
+.cfooter{
+    position: absolute;
+    bottom:25px;
+    width: 100%;
+    left:0;
+
+}
+
+#koti_kortti{
+    position: relative;
+    width: 30%;
+    max-width: 450px;
+    min-width: 280px;
+    background: whitesmoke;
+    margin: 10px;
+    font-family: 'Montserrat';
+    color: #242424;
+    border-radius: 7px;
+    box-shadow: rgba(0, 0, 0, 0.4) 5px 5px 20px;
+    padding-bottom: 70px;
+
+}
+
+#koti_kortti span{
+    padding-bottom: 45px;
+}
+
+#carousel_kortti{
+    position: relative;
+    background: white;
+    margin: 10px;
+    font-family: 'Montserrat';
+    color: #242424;
+    border-radius: 7px;
+    box-shadow: rgba(0, 0, 0, 0.4) 5px 5px 20px;
+    padding-bottom: 70px;
+
+    
+}
+
+#koti_kortti h1,p{
+    padding-left: 3%;
+    padding-right: 3%;
+    
+}
+
+#koti_kortti h1{
+font-size: 30pt;
+}
+
+
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  ::-webkit-scrollbar-track {
+    background: f3c677; 
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #f9564f; 
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #8b302d; 
+  }
+
+
+
+
+
+
+
+
+
+/*----------------------------------------------------------------------------*/
+
+    @media only screen and (max-width: 320px) {
+        #blogi_hub_kortti h1{
+            font-size: 10vw;
+            
+        }
+    }
+
+    @media only screen and (max-width: 450px) {
+        #blogi_hub_kortti{
+            width: 300px;
+        }
+
+        .nav-item{
+            font-size: 9pt;
+            
+        }
+        #intro_txt{
+            font-size: 9pt;
+            margin: auto;
+        }
+
+        .otsikko_pieni{
+            font-size: 6pt;
+        }
+
+        .carousel-inner{
+            width: 100%;
+        }
+
+        #main2{
+            padding: 0;
+            padding-top: 40px;
+
+        }
+        
+    }
+  @media only screen and (max-width: 600px) {
+
+   
+
+    
+  }
+
+  @media only screen and (max-width: 840px) {
+
+   
+    #blogi_hub_kortti{
+        min-width: 360px;
+    }
+    
+}
+
+
+  @media only screen and (max-width: 768px) {
+    
+    #etu_body{
+        background-image: url(/img/e1_mobile.jpg);
+        height: auto;
+    }
+
+    #main{
+        background: linear-gradient( 90deg,rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.4) ,rgba(0, 0, 0, 0.7));
+
+    }
+
+    #intro_txt{
+        padding: 40px;
+    }
+
+    .item1{
+        font-size: 40pt!important;
+    }
+
+ 
+
+  
+
+   
+  }
+
+  #carouselNav{
+      display: none;
+      height: 100%;
+  }
+
+  .carousel-item{
+      font-size: 12pt;
+      padding: 10%;
+      padding-top: 5%;
+      height: 100%;
+      
+  }
+
+  .carousel-item .lue_btn{
+      margin-top: 20px;
+      margin-bottom: 20px;
+      color: white;
+      border: 2px solid white;
+      font-weight: bold;
+  }
+
+  .carousel-item .lue_btn:hover{
+    background-color: rgb(255, 255, 255, 0.5);
+    color: #f9564f;
+}
+
+  
+  @media only screen and (max-width: 900px) {
+    .item1{
+        font-size: 65pt;
+    }
+    .otsikko_pieni{
+        font-size:20pt;
+    }
+  }
+
+  @media only screen and (max-width: 930px) {
+
+
+    .item3 #cardholder{display: none;}
+    .card{
+        max-width: 570px;
+    }
+    #carouselNav{
+        display: initial;
+    }
+    .nav-item{
+    margin: 3%;
+    margin-top: 0;
+    margin-bottom: 0;
+    }
+
+    #intro_txt{
+        font-size: 12pt;
+        margin: auto;
+    }
+}
+
+  @media only screen and (max-width: 1100px) {
+    #etu_body{
+        background-size: auto 1100px;
+    }
+    #sis_ala{
+        padding: 15%;
+        padding-top: 0;
+        font-size: 10pt;
+    }
+    #otsikko{
+        font-size: 23pt;
+    }
+    #alaotsikko{
+        font-size: 12pt;
+
+    }
+    #blogi_sis{
+        margin: 0;
+        width: 95%;
+    }
+    #blogi_palkki{display: none;}
+  }
+
+  @media only screen and (max-width: 1270px) {
+   
+    #koti_kortti h1{
+        font-size: 25pt;
+    }
+
+    .item1{
+        font-size: 100pt;
+    }
+  }
+
+  @media only screen and (max-width: 1940px) {
+   
+    #blogi_palkki{display: none;}
+    #blogi_sis{
+        margin: 0;
+        width: 90%;
+    }
+}
+
+  
+
+  @media only screen and (max-width: 2100px) {
+    #etu_body{
+        background-size: auto 1434px ;
+    }
+  }
