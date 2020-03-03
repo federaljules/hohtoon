@@ -39,31 +39,6 @@ html{
     margin: 0;
     padding: 0;
     background: whitesmoke;
-    /* background: linear-gradient(270deg, #f3c677, #f9564f, #f3c677);
-    background-size: 600% 600%;
-    -webkit-animation: AnimationName 22s ease infinite;
-    -moz-animation: AnimationName 22s ease infinite;
-    animation: AnimationName 22s ease infinite; */
-
-    
-    
-    
-}
-
-@-webkit-keyframes AnimationName {
-    0%{background-position:0% 50%}
-    50%{background-position:100% 50%}
-    100%{background-position:0% 50%}
-}
-@-moz-keyframes AnimationName {
-    0%{background-position:0% 50%}
-    50%{background-position:100% 50%}
-    100%{background-position:0% 50%}
-}
-@keyframes AnimationName {
-    0%{background-position:0% 50%}
-    50%{background-position:100% 50%}
-    100%{background-position:0% 50%}
 }
 
 html{
@@ -114,7 +89,11 @@ a:hover{
     
 }
 
-
+#main3 #contact h3{
+  
+    font-family: 'Julius Sans One', sans-serif;
+    color: white;
+}
 
 #blogi_main{
     display: flex;
@@ -122,8 +101,7 @@ a:hover{
     justify-content: center;
     padding-top: 40px;
     margin: auto;
-
-    font-family: "Helvetica"
+    font-family: "Helvetica";
 
 }
 
@@ -263,7 +241,7 @@ header h1{
 i{
    
     color: white;
-    font-size: 60px;
+    font-size: 70px;
     text-align: center;
 }
 
@@ -277,16 +255,14 @@ i .fa-hashtag{
 
 
 #main3{
-    height: 300px;
     display: flex;
-    flex-flow: column wrap;
+    flex-flow: column;
     justify-content: space-around;
     align-items: center;
     background: #f9564f;
-    height: calc(40vh - 20px);
-    /*
-    -webkit-clip-path: polygon(0 6%, 100% 0, 100% 100%, 0% 100%);
-    clip-path: polygon(0 6%, 100% 0, 100% 100%, 0% 100%);*/
+    height: 100%;
+    padding: 2%;
+   
 }
 
 #palkki{
@@ -517,7 +493,7 @@ font-size: 30pt;
     width: 10px;
   }
   ::-webkit-scrollbar-track {
-    background: f3c677; 
+    background: dwhite; 
   }
   ::-webkit-scrollbar-thumb {
     background: #f9564f; 
@@ -572,12 +548,7 @@ font-size: 30pt;
         }
         
     }
-  @media only screen and (max-width: 600px) {
 
-   
-
-    
-  }
 
   @media only screen and (max-width: 840px) {
 
@@ -609,11 +580,6 @@ font-size: 30pt;
         font-size: 40pt!important;
     }
 
- 
-
-  
-
-   
   }
 
   #carouselNav{
