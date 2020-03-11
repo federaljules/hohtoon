@@ -1,9 +1,10 @@
 let main = document.getElementById('hub_main');
 let cat_raha = document.getElementById('cat_raha');
-let cat_talous = document.getElementById('cat_talous');
+let cat_kehitys = document.getElementById('cat_kehitys');
 let cat_joht = document.getElementById('cat_joht');
 let kaikkibtn = document.getElementById('cat_kaikki');
 let cat_menestys = document.getElementById('cat_menestys');
+let cat_vinkkeja = document.getElementById('cat_vinkit');
 
 history.replaceState(null, null, ' ');
 
@@ -90,25 +91,29 @@ $.ajax({
                     teeKortit(hash, kuva, otsikko, c_intro, pvm, kat);
                 }
                 })
-                cat_talous.addEventListener('click', function(){
-                    if(kat[j].includes("Talous")){
+                cat_kehitys.addEventListener('click', function(){
+                    if(kat[j].includes("Henkilökohtainen kehitys")){
                         teeKortit(hash, kuva, otsikko, c_intro, pvm, kat);
                     }
                  })
                  cat_vier.addEventListener('click', function(){
                     if(kat[j].includes("Vieraileva")){
                         teeKortit(hash, kuva, otsikko, c_intro, pvm, kat);
-                    }else{
-                        console.log("Nothing here")
                     }
                  })
                  cat_menestys.addEventListener('click', function(){
-                    if(kat[j].includes("Menestys")){
+                    if(kat[j].includes("Menestystarinat")){
                         teeKortit(hash, kuva, otsikko, c_intro, pvm, kat);
-                    }else{
-                        console.log("Nothing here")
                     }
+                    
                  })
+            //      cat_vinkkeja.addEventListener('click', function(){
+            //         if(kat[j].includes("Vinkit")){
+            //             teeKortit(hash, kuva, otsikko, c_intro, pvm, kat);
+            //         }else{
+            //             console.log("Nothing here")
+            //         }
+            //  })
             };
            
             

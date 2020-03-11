@@ -493,7 +493,7 @@ font-size: 30pt;
     width: 10px;
   }
   ::-webkit-scrollbar-track {
-    background: dwhite; 
+    background: white; 
   }
   ::-webkit-scrollbar-thumb {
     background: #f9564f; 
